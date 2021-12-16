@@ -1,0 +1,36 @@
+p{
+   
+    text-align:center;
+    padding: 10px;
+    font-size:30px;
+    color:indigo;
+}
+
+button{
+    margin-left: 20px;
+}
+
+.list{
+ 
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-bottom: 10px;
+}
+table {
+    
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 40px;
+  }
+  
+  td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+    max-width:120px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }

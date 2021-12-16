@@ -1,0 +1,18 @@
+<p>edit works!</p>
+<router-outlet></router-outlet>
+<button >DELETE ALL</button>
+<button routerLink="/home">ADD LIST</button>
+<div class="list" *ngFor="let list of lists,let id=index" >
+    
+    <table>
+        <th>{{list.firstname}}</th>
+        <th>{{list.lastname}}</th>
+        <th>{{list.email}}</th>
+        <button routerLink="/list/{{list.id}}" >EDIT</button>
+        
+        <button >DELETE</button>
+    </table>
+        
+    
+
+</div>
